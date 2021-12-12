@@ -1,0 +1,9 @@
+name: AuthPlugin
+main: eu.beegames.auth.AuthPlugin
+version: ${version}
+author: TTtie
+depend: [AuthMe]
+permissions:
+  eu.beegames.auth.bypass_kick_timeout:
+    description: Allows bypassing the kick timeout
+    default: false
